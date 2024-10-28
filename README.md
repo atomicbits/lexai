@@ -15,6 +15,8 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
 
+## Setup 
+
 Make sure you have installed the prerequisites for your OS: https://tauri.app/start/prerequisites/, then run:
   cd lexai
   npm install
