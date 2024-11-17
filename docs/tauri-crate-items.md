@@ -1,10 +1,18 @@
-List of all items in the tauri 2.0 crate
+
+Tauri RUST API
+
+URL Source: https://docs.rs/tauri/2.0.0-rc/tauri/all.html
+
+Markdown Content:
+List of all items in this crate
+===============
+  
 
 [Docs.rs](https://docs.rs/)
 
-*   [tauri-2.0.6](https://docs.rs/tauri/2.0.0-rc/tauri/all.html# "Make tiny, secure apps for all desktop platforms with Tauri")
+*   [tauri-2.1.1](https://docs.rs/tauri/2.0.0-rc/tauri/all.html# "Make tiny, secure apps for all desktop platforms with Tauri")
     
-    *   tauri 2.0.6
+    *   tauri 2.1.1
     *   [Docs.rs crate page](https://docs.rs/crate/tauri/2.0.0-rc "See tauri in docs.rs")
     *   [Apache-2.0 OR MIT](https://docs.rs/crate/tauri/2.0.0-rc)
     
@@ -12,7 +20,7 @@ List of all items in the tauri 2.0 crate
     *   [Homepage](https://tauri.app/)
     *   [Repository](https://github.com/tauri-apps/tauri)
     *   [crates.io](https://crates.io/crates/tauri "See tauri in crates.io")
-    *   [Source](https://docs.rs/crate/tauri/2.0.0-rc/source/ "Browse source of tauri-2.0.6")
+    *   [Source](https://docs.rs/crate/tauri/2.0.0-rc/source/ "Browse source of tauri-2.1.1")
     
     *   Owners
     *   [tauri-bot](https://crates.io/users/tauri-bot)
@@ -40,11 +48,11 @@ List of all items in the tauri 2.0 crate
         *   [serde\_repr ^0.1 _normal_](https://docs.rs/serde_repr/^0.1)
         *   [serialize-to-javascript =0.1.1 _normal_](https://docs.rs/serialize-to-javascript/=0.1.1)
         *   [specta ^2.0.0-rc.16 _normal_ _optional_](https://docs.rs/specta/^2.0.0-rc.16)
-        *   [tauri-macros ^2.0.2 _normal_](https://docs.rs/tauri-macros/^2.0.2)
-        *   [tauri-runtime ^2.1.1 _normal_](https://docs.rs/tauri-runtime/^2.1.1)
-        *   [tauri-runtime-wry ^2.1.2 _normal_ _optional_](https://docs.rs/tauri-runtime-wry/^2.1.2)
-        *   [tauri-utils ^2.0.2 _normal_](https://docs.rs/tauri-utils/^2.0.2)
-        *   [thiserror ^1.0 _normal_](https://docs.rs/thiserror/^1.0)
+        *   [tauri-macros ^2.0.3 _normal_](https://docs.rs/tauri-macros/^2.0.3)
+        *   [tauri-runtime ^2.2.0 _normal_](https://docs.rs/tauri-runtime/^2.2.0)
+        *   [tauri-runtime-wry ^2.2.0 _normal_ _optional_](https://docs.rs/tauri-runtime-wry/^2.2.0)
+        *   [tauri-utils ^2.1.0 _normal_](https://docs.rs/tauri-utils/^2.1.0)
+        *   [thiserror ^2 _normal_](https://docs.rs/thiserror/^2)
         *   [tokio ^1 _normal_](https://docs.rs/tokio/^1)
         *   [tracing ^0.1 _normal_ _optional_](https://docs.rs/tracing/^0.1)
         *   [url ^2 _normal_](https://docs.rs/url/^2)
@@ -59,8 +67,8 @@ List of all items in the tauri 2.0 crate
         *   [serde\_json ^1.0 _dev_](https://docs.rs/serde_json/^1.0)
         *   [tokio ^1 _dev_](https://docs.rs/tokio/^1)
         *   [heck ^0.5 _build_](https://docs.rs/heck/^0.5)
-        *   [tauri-build ^2.0.2 _build_](https://docs.rs/tauri-build/^2.0.2)
-        *   [tauri-utils ^2.0.2 _build_](https://docs.rs/tauri-utils/^2.0.2)
+        *   [tauri-build ^2.0.3 _build_](https://docs.rs/tauri-build/^2.0.3)
+        *   [tauri-utils ^2.1.0 _build_](https://docs.rs/tauri-utils/^2.1.0)
         *   [libc ^0.2 _normal_](https://docs.rs/libc/^0.2)
         *   [swift-rs ^1.0.7 _normal_](https://docs.rs/swift-rs/^1.0.7)
         *   [gtk ^0.18 _normal_](https://docs.rs/gtk/^0.18)
@@ -89,7 +97,7 @@ List of all items in the tauri 2.0 crate
     *   [x86\_64-apple-ios](https://docs.rs/crate/tauri/2.0.0-rc/target-redirect/x86_64-apple-ios/tauri/all.html)
     *   [x86\_64-linux-android](https://docs.rs/crate/tauri/2.0.0-rc/target-redirect/x86_64-linux-android/tauri/all.html)
     *   [x86\_64-unknown-linux-gnu](https://docs.rs/crate/tauri/2.0.0-rc/target-redirect/x86_64-unknown-linux-gnu/tauri/all.html)
-*   [Feature flags](https://docs.rs/crate/tauri/2.0.0-rc/features "Browse available feature flags of tauri-2.0.6")
+*   [Feature flags](https://docs.rs/crate/tauri/2.0.0-rc/features "Browse available feature flags of tauri-2.1.1")
 
 *   [Rust](https://docs.rs/tauri/2.0.0-rc/tauri/all.html#)
     *   [About docs.rs](https://docs.rs/about)
@@ -105,7 +113,7 @@ List of all items in the tauri 2.0 crate
 
 [![Image 2: logo](https://github.com/tauri-apps/tauri/raw/dev/.github/icon.png)](https://docs.rs/tauri/2.0.0-rc/tauri/index.html)
 
-[tauri](https://docs.rs/tauri/2.0.0-rc/tauri/index.html)2.0.6
+[tauri](https://docs.rs/tauri/2.0.0-rc/tauri/index.html)2.1.1
 -------------------------------------------------------------
 
 ### [Crate Items](https://docs.rs/tauri/2.0.0-rc/tauri/all.html#macros)
@@ -209,9 +217,11 @@ List of all items
 *   [tray::TrayIcon](https://docs.rs/tauri/2.0.0-rc/tauri/tray/struct.TrayIcon.html)
 *   [tray::TrayIconBuilder](https://docs.rs/tauri/2.0.0-rc/tauri/tray/struct.TrayIconBuilder.html)
 *   [tray::TrayIconId](https://docs.rs/tauri/2.0.0-rc/tauri/tray/struct.TrayIconId.html)
+*   [webview::Color](https://docs.rs/tauri/2.0.0-rc/tauri/webview/struct.Color.html)
 *   [webview::InvokeRequest](https://docs.rs/tauri/2.0.0-rc/tauri/webview/struct.InvokeRequest.html)
 *   [webview::PageLoadPayload](https://docs.rs/tauri/2.0.0-rc/tauri/webview/struct.PageLoadPayload.html)
 *   [webview::PlatformWebview](https://docs.rs/tauri/2.0.0-rc/tauri/webview/struct.PlatformWebview.html)
+*   [webview::ResolvedScope](https://docs.rs/tauri/2.0.0-rc/tauri/webview/struct.ResolvedScope.html)
 *   [webview::Url](https://docs.rs/tauri/2.0.0-rc/tauri/webview/struct.Url.html)
 *   [webview::Webview](https://docs.rs/tauri/2.0.0-rc/tauri/webview/struct.Webview.html)
 *   [webview::WebviewBuilder](https://docs.rs/tauri/2.0.0-rc/tauri/webview/struct.WebviewBuilder.html)

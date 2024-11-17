@@ -24,7 +24,9 @@ Make sure you have installed the prerequisites for your OS: https://tauri.app/st
   npm run tauri ios init
 
 For Desktop development, run:
+```bash
   npm run tauri dev
+```
 
 For Android development, run:
   npm run tauri android dev
@@ -32,3 +34,32 @@ For Android development, run:
 For iOS development, run:
   npm run tauri ios dev
 
+
+## Upgrade Tauri version
+
+Check the current versions:
+```bash
+npm run tauri info
+```
+
+Check if anything npm releated is outdated:
+```bash
+npm outdated
+```
+
+Update every npm package:
+```bash
+npm update
+```
+
+Default update commands:
+```bash
+npm install @tauri-apps/cli@latest
+npm run tauri migrate
+```
+
+The dependencies should follow the main updates automatically:
+```
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-shell": "^2",
+```
