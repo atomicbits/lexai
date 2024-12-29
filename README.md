@@ -63,3 +63,10 @@ The dependencies should follow the main updates automatically:
     "@tauri-apps/api": "^2",
     "@tauri-apps/plugin-shell": "^2",
 ```
+
+Clean the cargo build:
+```bash
+cd src-tauri
+cargo clean
+cargo update
+```

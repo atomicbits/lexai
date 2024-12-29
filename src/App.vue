@@ -7,6 +7,7 @@ import { onMounted } from 'vue'
 import { Menu, Submenu, MenuItem } from '@tauri-apps/api/menu'
 
 onMounted(async () => {
+  // to add menu items in rust: https://github.com/narwhal-apps/gitbar/blob/main/src-tauri/src/main.rs
   const macOS = navigator.userAgent.includes('Macintosh')
   let optionsAbout = {
     text: "About"

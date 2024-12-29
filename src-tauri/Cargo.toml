@@ -2,7 +2,7 @@
 name = "lexai"
 version = "0.1.0"
 description = "A Tauri App"
-authors = ["you"]
+authors = ["Peter Rigole"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -16,10 +16,34 @@ crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]
 tauri-build = { version = "2", features = [] }
+protobuf-src = "2.1.0+27.1"
 
 [dependencies]
 tauri = { version = "2", features = [] }
 tauri-plugin-shell = "2"
 serde = { version = "1", features = ["derive"] }
-serde_json = "1"
+serde_json = "1.0.133"
+protobuf-sys = "0.2.0+26.1"
+lance = "0.19.2"
+lancedb = "0.13.0"
+thiserror = "2.0.3"
+indexmap = "1.9.3"  # Add this explicitly
+tokio = { version = "1.23", features = ["rt-multi-thread"] }
+arrow = { version = "52.2", optional = false }
+arrow-array = "52.2"
+arrow-data = "52.2"
+arrow-ipc = "52.2"
+arrow-ord = "52.2"
+arrow-schema = "52.2"
+fastembed = "4.3.0"
+anyhow = "1"
 
+
+
+# Protobuf is needed for lancedb and we don't want to rely on 
+# protobuf begin available locally, nor do we want to request 
+# the app user to install it. https://claude.ai/chat/12eb7f70-709f-4f2a-b04d-c937d713a4ee
+# This ensures protobuf is compiled from source
+[profile.release]
+lto = true
+codegen-units = 1
