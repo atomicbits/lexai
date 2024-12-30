@@ -1,8 +1,7 @@
-use fastembed::{TextEmbedding, InitOptions};
+use fastembed::{Embedding, InitOptions, TextEmbedding};
 use crate::prelude::*;
 
-use super::{Embeddings, Embedder};
-
+use super::Embedder;
 
 pub struct FastEmbedEmbedder {
 
@@ -29,11 +28,11 @@ impl Embedder for FastEmbedEmbedder {
 
     // fn get_embedding_and_usage(&self, text: &str) -> (Embeddings, Option<HashMap<String, String>>) {}
 
-    fn embed<S: AsRef<str> + Send + Sync>(&self, texts: Vec<S>) -> Result<Vec<Embeddings>> {
+    fn embed<S: AsRef<str> + Send + Sync>(&self, texts: Vec<S>) -> Result<Vec<Embedding>> {
         self.model.embed(texts, None)
     }
 
-    fn query_embed<S: AsRef<str> + Send + Sync>(&self, query: S) -> Result<Embeddings>{
+    fn query_embed<S: AsRef<str> + Send + Sync>(&self, query: S) -> Result<Embedding>{
         let query = format!("query: {}.", query.as_ref());
         Ok(self.model.embed(vec![query], None)?[0].clone())
     }

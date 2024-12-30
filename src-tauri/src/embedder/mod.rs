@@ -1,8 +1,8 @@
-mod fastembed;
+pub mod fastembed;
+
+use ::fastembed::Embedding;
 
 use crate::prelude::*;
-
-pub type Embeddings = Vec<f32>;
 
 pub trait Embedder {
     fn dimensions(&self) -> Option<usize>;
@@ -10,8 +10,8 @@ pub trait Embedder {
     // fn get_embedding(&self, text: &str) -> Embeddings;
     // fn get_embedding_and_usage(&self, text: &str) -> (Embeddings, Option<HashMap<String, String>>);
 
-    fn embed<S: AsRef<str> + Send + Sync>(&self, texts: Vec<S>) -> Result<Vec<Embeddings>>;
-    fn query_embed<S: AsRef<str> + Send + Sync>(&self, query: S) -> Result<Embeddings>;
+    fn embed<S: AsRef<str> + Send + Sync>(&self, texts: Vec<S>) -> Result<Vec<Embedding>>;
+    fn query_embed<S: AsRef<str> + Send + Sync>(&self, query: S) -> Result<Embedding>;
 }
 
 pub fn cosine_similarity(a: &[f32], b: &[f32]) -> f32 {
