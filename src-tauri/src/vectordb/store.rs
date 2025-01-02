@@ -30,7 +30,6 @@ impl DataStore {
         if conn_guard.is_none() {
             *conn_guard = Some(connect(&self.uri).execute().await?);
         }
-
         Ok(conn_guard.as_ref().unwrap().clone()) // unwrap() cannot fail here
     }
 
